@@ -1,0 +1,15 @@
+.font-in{
+  font: var(--subtitle);
+  color: var(--gray-200);
+  opacity: 80%;
+}
+
+.h1-asap{
+  font: var(--text-lg);
+  color: var( --gray-100);
+}
+
+.font-maven{
+  font: var(--text-smm);
+  color: var( --gray-300);
+}

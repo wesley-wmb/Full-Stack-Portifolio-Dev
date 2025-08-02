@@ -1,6 +1,7 @@
 * {
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
 }
 
 :root{
@@ -28,6 +29,24 @@
   --text-mdm: 400 16px/140% var(--font-family-ma);
   --text-smm: 400 14px/140% var(--font-family-ma)
 }
+
+
+body{
+  max-width: 1366px;
+  background-image: url(/assets/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  
+}
+
+main{
+  /* max-width: 1040px; */
+  /* height: 500px; */
+  /* border: solid; */
+  margin: auto;
+}
+
 
 
 
