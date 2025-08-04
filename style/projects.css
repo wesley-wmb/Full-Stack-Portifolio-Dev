@@ -1,0 +1,55 @@
+#projects{
+  background-color: var(--gray-500);
+}
+
+header{
+  text-align: center;
+  p{
+    font: var(--subtitle);
+    color: var(--red);
+    margin-bottom: 10px;
+  }
+  h2{
+    font: var(--text-md);
+    color: var(--gray-100);
+    margin-bottom: 56px;
+  }
+}
+
+#cards{
+  justify-content: center;
+  padding-bottom: 114px;
+  h3{
+    font: var(--text-sm);
+    color: var( --gray-100);
+    margin-left: 11px;
+    margin-bottom: 8px;
+  }
+  p{
+    font: var(--text-smm);
+    color: var( --gray-200);
+    opacity: 80%;
+    margin-left: 11px;
+  }
+  img{
+    width: 306px;
+    height: 156px;
+    object-fit: cover; 
+    border-radius: 8px;
+    margin-left: 11px;
+    margin-right: 11px;
+    margin-top: 11px;
+    margin-bottom: 20px;
+  }
+}
+
+.sites{
+  /* border: solid white 1px; */
+  border-radius: 8px;
+  /* place-items: center ; */
+  
+  width: 330px;
+  height: 280px;
+  background-color:var(--gray-400);
+  
+}

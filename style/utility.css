@@ -13,3 +13,9 @@
   font: var(--text-smm);
   color: var( --gray-300);
 }
+
+.grid{
+  display: grid;
+  grid-template-columns: 330px 330px 330px; 
+  gap: 24px;
+}

@@ -1,11 +1,13 @@
 header{
-  margin-top: 120px;
+  /* margin-top: 120px; */
+  padding-top: 120px;
 }
 #profile{
   /* border: solid; */
   justify-self: center;
   position: relative;
   margin-bottom: 56px;
+  
 }
 
 #border{
@@ -19,14 +21,15 @@ header{
 
 #code{
   background-image: url(/assets/Code.svg);
+  background-repeat: no-repeat;
   z-index: 2;
-  width: 32px;
-  height: 32px;
+  width: 35px;
+  height: 35px;
   display: block;
   position: absolute;
   background-size: contain;
   top: 70%;
-  left: 70%;
+  left: 68%;
 }
 
 .img{
@@ -112,10 +115,21 @@ header{
 
 #seta{
   background-image: url(/assets/CaretDoubleDown.png);
+  background-repeat: no-repeat;
+  background-position: center;
   width: 32px;
   height: 32px;
   display: block;
-  margin-top: 94px;
-  margin-bottom: 57px;
+  margin-top: 85px;
+  padding: 57px;
   justify-self: center;
+ 
+}
+
+#info{
+  background-image: url(/assets/Background_Intro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
 }
