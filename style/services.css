@@ -1,0 +1,62 @@
+#services{
+  background-color: var(--gray-600);
+}
+
+
+#servicos{
+  justify-content: center;
+  padding-bottom: 120px;
+  h3{
+    font: var(--text-sm);
+    color: var( --gray-100);
+    /* margin-left: 11px; */
+    margin-bottom: 8px;
+  }
+  p{
+    font: var(--text-smm);
+    color: var( --gray-200);
+    opacity: 80%;
+    /* margin-left: 11px; */
+  }
+  .itens{
+    border: solid 1px var( --gray-500);
+    border-radius: 12px;
+    width: 280px;
+    height: 155px;
+    padding: 21px;
+    /* display: block; */
+  }
+}
+
+#desktop {
+    background-image: url(/assets/coputer.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+
+#banco {
+    background-image: url(/assets/banco.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+
+#infinity {
+    background-image: url(/assets/infinity.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 20px;
+}
+
+.gridd{
+  display: grid;
+  grid-template-columns: 280px 280px 208px; 
+  gap: 24px;
+}
