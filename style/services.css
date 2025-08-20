@@ -1,11 +1,13 @@
 #services{
   background-color: var(--gray-600);
+ 
 }
 
 
 #servicos{
   justify-content: center;
   padding-bottom: 120px;
+  margin-top: 56px;
   h3{
     font: var(--text-sm);
     color: var( --gray-100);

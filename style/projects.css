@@ -9,16 +9,18 @@ header{
     color: var(--red);
     margin-bottom: 10px;
   }
-  h2{
+ p+h2 {
     font: var(--text-md);
     color: var(--gray-100);
-    margin-bottom: 56px;
+    /* margin-bottom: 56px; */
   }
 }
+
 
 #cards{
   justify-content: center;
   padding-bottom: 114px;
+  margin-top: 56px;
   h3{
     font: var(--text-sm);
     color: var( --gray-100);
@@ -47,9 +49,10 @@ header{
   /* border: solid white 1px; */
   border-radius: 8px;
   /* place-items: center ; */
-  
   width: 330px;
   height: 280px;
   background-color:var(--gray-400);
-  
 }
+
+
+
